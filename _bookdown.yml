@@ -1,7 +1,6 @@
 # Book output options
-book_filename: "Intro to Machine Learning using R"
+book_filename: "my-book-name"
 output_dir: "docs"
-clean: ["my-book-name.bbl", "my-book-name.blg", "my-book-name.idx", "my-book-name.ind", "my-book-name.ilg", "my-book-name.log", "my-book-name.out", "my-book-name.toc", "*.aux", "*.lof", "*.lot", "*.fls", "*.fdb_latexmk", "_bookdown_files"]
 
 # Book rendering options
 new_session: yes
@@ -11,8 +10,7 @@ language:
 
 # Merge and render parts and chapters
 rmd_files: [
-  "index.Rmd" # Introduction and setup
-  
+  "index.Rmd"
 ]
 
 # Delete the merged file after rendering
