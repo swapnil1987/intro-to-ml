@@ -1,5 +1,5 @@
 # Book output options
-book_filename: "my-book-name"
+book_filename: "Introduction to Machine Learning using R"
 output_dir: "docs"
 
 # Book rendering options
