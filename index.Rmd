@@ -1,4 +1,4 @@
 
 # Introduction
 
-Welcome to my book.
+This is an introductory course in Machine Learning with applications in `R`.
