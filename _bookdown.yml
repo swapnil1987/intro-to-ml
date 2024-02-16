@@ -10,7 +10,8 @@ language:
 
 # Merge and render parts and chapters
 rmd_files: [
-  "index.Rmd"
+  "index.Rmd",
+  "02-regression.Rmd"
 ]
 
 # Delete the merged file after rendering
