@@ -1,0 +1,38 @@
+# Book output options
+book_filename: "Intro to Machine Learning using R"
+output_dir: "docs"
+clean: ["my-book-name.bbl", "my-book-name.blg", "my-book-name.idx", "my-book-name.ind", "my-book-name.ilg", "my-book-name.log", "my-book-name.out", "my-book-name.toc", "*.aux", "*.lof", "*.lot", "*.fls", "*.fdb_latexmk", "_bookdown_files"]
+
+# Book rendering options
+new_session: yes
+language:
+  ui:
+    chapter_name: "Chapter "
+
+# Merge and render parts and chapters
+rmd_files: [
+  "index.Rmd" # Introduction and setup
+  
+]
+
+# Delete the merged file after rendering
+delete_merged_file: true
+
+# Output format specific to HTML website
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Home</a></li>
+      after: |
+        <li><a href="https://www.example.com">External Link</a></li>
+    edit: null # Disables the "Edit this page" link
+    download: ["pdf", "epub"] # Enables download options for PDF and ePub
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: no
+      linkedin: yes
+    toolbar:
+      position: fixed
